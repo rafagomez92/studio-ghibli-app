@@ -44,7 +44,7 @@ const Specie = ({ id }) => {
                         <p className="lead">eye colors: {eye_colors}</p>
                         <p className="lead">hair colors: {hair_colors}</p>
                         <hr className="my-4" />   
-                        <Link to="/Species" className="btn btn-primary btn-large">
+                        <Link to="/species" className="btn btn-primary btn-large">
                             Back
                         </Link>                     
                     </div>

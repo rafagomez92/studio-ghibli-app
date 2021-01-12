@@ -86,7 +86,7 @@ const Vehicle = ({ id }) => {
                             Director: {director}
                         </p>
                         <hr className="my-4" />   
-                        <Link to="/Vehicles" className="btn btn-primary btn-large">
+                        <Link to="/vehicles" className="btn btn-primary btn-large">
                             Back
                         </Link>                     
                     </div>

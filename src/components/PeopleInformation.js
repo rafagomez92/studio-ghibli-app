@@ -1,4 +1,5 @@
 import { useEffect, useContext, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { EndpointsContext } from '../context/EndpointsContext';
 import Character from '../data/people';
 
@@ -45,6 +46,9 @@ const PeopleInformation = ({ id }) => {
                         <p className="lead">Hair color: {hair_color}</p>                        
                         <hr className="my-4" />                                                                        
                     </div>
+                    <Link to="/people" className="btn btn-primary btn-large">
+                            Back
+                    </Link>
                 </div>
             </div>
         {/* </div> */}

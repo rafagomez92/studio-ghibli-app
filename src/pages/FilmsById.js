@@ -6,8 +6,12 @@ const FilmsById = (props) => {
 
     return (
         <>
-         <Film id={id} />
+            <div className="container text-center mt-5">
+                <h1>Film</h1>        
+            </div>
+        <Film id={id} />
         </>
+
     );
 }
  

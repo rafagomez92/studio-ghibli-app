@@ -6,7 +6,10 @@ const SpeciesById = (props) => {
 
     return (
         <>
-         <Specie id={id} />
+        <div className="container text-center mt-5">
+                <h1>Specie</h1>                
+            </div>
+        <Specie id={id} />
         </>
     );
 }

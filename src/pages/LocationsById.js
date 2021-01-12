@@ -6,7 +6,10 @@ const LocationsById = (props) => {
 
     return (
         <>
-         <Location id={id} />
+        <div className="container text-center mt-5">
+                <h1>Location</h1>
+        </div>
+        <Location id={id} />                
         </>
     );
 }
